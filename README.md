@@ -10,7 +10,7 @@ A lightweight and interactive Bash script to automate the process of generating 
 - 🔢 Automatically handles versioning via a `.buildVersion` file
 - 📈 Supports both version override and auto-increment
 - 🧹 Cleans previous build outputs before compiling
-- 🛠 Uses `./<script-name>` > fllow the instruction
+- 🛠 Uses `./buildBundle.sh` >> follow the instruction
 - 📂 Opens output directory (`build/app/outputs/bundle/release`) after success
 
 ---
@@ -23,7 +23,7 @@ A lightweight and interactive Bash script to automate the process of generating 
 > 
 >   ├── lib/
 > 
->   ├── build.sh # ← Your bundle script
+>   ├── buildBundle.sh # ← Your bundle script
 > 
 >   └── .buildVersion # ← Optional file to store build version
  
@@ -63,7 +63,7 @@ Process flows as:
 ## ✅ Example Output
 * Terminal Logs
 
-<img width="473" height="157" alt="image" src="https://github.com/user-attachments/assets/8aa3014b-5e4f-4c6b-96e4-dc381c8513bb" />
+<img width="571" height="178" alt="image" src="https://github.com/user-attachments/assets/cc16c7e7-880b-4947-aa01-9e3537721453" />
 
 * Version file `.buildVersion`
 
